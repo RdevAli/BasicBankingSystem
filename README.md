@@ -14,7 +14,7 @@ A simple **Object-Oriented Banking System** written in **Java** to demonstrate f
 ---
 
 ## 🧱 Project Structure
-
+```bash
 BasicBankingSystem/
 ├─ src/
 │  └─ bank/
@@ -25,16 +25,14 @@ BasicBankingSystem/
 │     └─ Main.java
 ├─ docs/
 │  └─ uml/
-│     └─ banking-uml.png   ← place your UML diagram here
+│     └─ diagram-uml.png
 ├─ .gitignore
 └─ README.md
-
+```
 
 ---
 
 ## 🖼 UML Diagram
-Add your UML diagram in `docs/uml/banking-uml.png`.  
-It will automatically render here:
 
 ![UML Diagram](docs/uml/Untitled-2024-08-15-1444.png)
 
@@ -86,25 +84,6 @@ Bob (Current): 200.0
 
 ---
 
-## 📦 .gitignore Example
-
-```gitignore
-# Java compiled classes
-*.class
-
-# Build directories
-/out/
-bin/
-target/
-
-# IDE configs
-.idea/
-.vscode/
-*.iml
-```
-
----
-
 ## 🔮 Future Improvements
 
 * Add console-based menu for user interaction
@@ -113,16 +92,3 @@ target/
 * Add unit tests (JUnit)
 
 ---
-
-## 👨‍💻 Author
-
-**Ali Rehman (@RdevAli)**
-*Basic Banking System for practicing OOP concepts in Java.*
-
-```
-
----
-
-👉 Just copy-paste this as `README.md` in your repo root.  
-Would you like me to also **add a console menu system** (so you can interactively create accounts, deposit, withdraw) and then update this README with usage instructions?
-```
